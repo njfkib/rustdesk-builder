@@ -11,11 +11,11 @@ on:
       rustdesk_version:
         description: "要构建的 rustdesk 客户端版本 (默认 1.2.0, 含写死服务器机制)"
         required: false
-        default: "1.2.0"
+        default: "1.0.0"
 
 env:
   # ============ 你的自建服务器配置 (客户端将写死这些) ============
-  RENDEZVOUS_SERVER: "http://175g.cf"
+  RENDEZVOUS_SERVER: "175g.cf"
   RS_PUB_KEY: "joaX2z6rQ9W8Yu6+ElpVb+1mjQVDsWkyFtIJc6c0t7U="
   # ============ 构建工具链版本 (与 rustdesk 1.2.0 官方一致, 勿改) ============
   LLVM_VERSION: "15.0.6"
