@@ -15,8 +15,8 @@ on:
 
 env:
   # ============ 你的自建服务器配置 (客户端将写死这些) ============
-  RENDEZVOUS_SERVER: "10.2.4.110"
-  RS_PUB_KEY: "xCwQWTevzz8dFHTqAjG4H4Hq28xCY2N7di93SvwyLsY="
+  RENDEZVOUS_SERVER: "http://175g.cf"
+  RS_PUB_KEY: "joaX2z6rQ9W8Yu6+ElpVb+1mjQVDsWkyFtIJc6c0t7U="
   # ============ 构建工具链版本 (与 rustdesk 1.2.0 官方一致, 勿改) ============
   LLVM_VERSION: "15.0.6"
   FLUTTER_VERSION: "3.10.5"
